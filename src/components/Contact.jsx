@@ -16,17 +16,18 @@ const Contact = () => {
     
         emailjs
           .sendForm(
-            process.env.NEXT_PUBLIC_SERVICE_ID,
-            process.env.NEXT_PUBLIC_TEMPLATE_ID,
+            process.env.REACT_APP_SERVICE_ID,
+            process.env.REACT_APP_TEMPLATE_ID,
             form.current,
-            process.env.NEXT_PUBLIC_PUBLIC_KEY
+            process.env.REACT_APP_PUBLIC_KEY
           )
           .then(
             () => {
               setSuccess(true);
               form.current.reset();
             },
-            () => {
+            (error) => {
+                console.log("error:" + error)
               setError(true);
             }
           );

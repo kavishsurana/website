@@ -9,7 +9,7 @@ const Service = () => {
                 <div className="bg-white rounded-lg shadow-lg p-6 m-6 flex flex-col md:mx-96">
                     <img src="suvaraprashan.png" alt="yoga" className="h-48 md:h-96 md:w-96 mx-auto" />
                     <div className="p-2 items-center justify-center md:m-8 md:text-2xl font-bold">
-                        Swarna Prasan is an Ayurvedic Medicine given on Pushya Nakshatra to improve physical, mental ans intellectual health of children age 1-16 year it boost up immune system.
+                        Swarna Prasan is an Ayurvedic Medicine given on Pushya Nakshatra to improve physical, mental and intellectual health of children age 1-16 year it boost up immune system.
                     </div>
 
                 </div>

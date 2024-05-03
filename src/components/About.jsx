@@ -26,7 +26,7 @@ const About = () => {
                     <span>ARIHANT CLINIC</span>
                 </div>
                 <div className="flex items-center justify-center text-4xl flex flex-col mb-3">
-                    <span className="m-4 text-center">Lalganga Business Park 315</span>
+                    <span className="m-4 text-center">315 Lalganga Business Park, Raipur </span>
                 </div>
 
                 
